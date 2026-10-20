@@ -85,7 +85,6 @@ export async function tableRows(table: string, limit = 200) {
   return (await sql.unsafe(`SELECT ${select} FROM \`${table}\` ORDER BY 1 DESC LIMIT ${Math.min(Math.max(limit, 1), 1000)}`)) as Record<string, unknown>[];
 }
 
-/** '' → NULL; "2026-05-01T10:30" (datetime-local) → "2026-05-01 10:30:00". */
 export function normalizeValue(v: unknown): string | number | null {
   if (v === null || v === undefined) return null;
   if (typeof v === 'number') return v;
@@ -120,7 +119,7 @@ export async function insertRows(table: string, rows: unknown): Promise<number> 
       params,
     );
   } catch (e) {
-    // Errores de MySQL (columna obligatoria, FK inexistente, duplicado…) → mensaje para el usuario
+    // Errores de MySQL (columna obligatoria, FK inexistente, duplicado…)
     throw new UserError((e as Error).message);
   }
   return rows.length;

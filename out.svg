@@ -1,0 +1,131 @@
+<svg version="1.1" baseProfile="full" width="927.0" height="242.0" viewBox="0 0 927 242" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[UserError||]
+[&lt;interface&gt;Finding|+id: string;+title: string;+severity: Severity;+description: string;+recommendation: string;+count: number;+columns: string\[\];+rows: Record&lt;string, unknown&gt;\[\]|]
+[&lt;interface&gt;Column|+name: string;+type: string;+nullable: boolean;+auto: boolean|]
+[&lt;interface&gt;Rule|+id: string;+title: string;+severity: Severity;+description: string;+recommendation: string;+sql: string|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="242.0" width="927.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="UserError">
+<g fill="#eee8d5" stroke="#33322E" data-name="UserError">
+<rect x="0.0" y="69.0" height="48.0" width="92.0" data-name="UserError"></rect>
+<path d="M0.0 101.0 L92.0 101.0" fill="none" data-name="UserError"></path>
+<path d="M0.0 109.0 L92.0 109.0" fill="none" data-name="UserError"></path>
+</g>
+<g transform="translate(0, 69)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="UserError" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="UserError" data-compartment="0">
+<a id="src/analysis.ts.UserError" xlink:href="src/analysis.ts"><text x="38.0" y="14.1" stroke="none" text-anchor="middle" data-name="UserError" data-compartment="0">UserError</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 101)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="UserError" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="UserError" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 109)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="UserError" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="UserError" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="Finding">
+<g fill="lightblue" stroke="#33322E" data-name="Finding">
+<rect x="132.0" y="0.0" height="186.0" width="285.0" data-name="Finding"></rect>
+<path d="M132.0 32.0 L417.0 32.0" fill="none" data-name="Finding"></path>
+<path d="M132.0 178.0 L417.0 178.0" fill="none" data-name="Finding"></path>
+</g>
+<g transform="translate(132, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Finding" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Finding" data-compartment="0">
+<a id="src/analysis.ts.Finding" xlink:href="src/analysis.ts"><text x="134.5" y="14.1" stroke="none" text-anchor="middle" data-name="Finding" data-compartment="0">Finding</text></a>
+
+</g>
+</g>
+<g transform="translate(132, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Finding" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Finding" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Finding" data-compartment="1">+id: string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Finding" data-compartment="1">+title: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Finding" data-compartment="1">+severity: Severity</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Finding" data-compartment="1">+description: string</text>
+<text x="0.0" y="78.9" stroke="none" data-name="Finding" data-compartment="1">+recommendation: string</text>
+<text x="0.0" y="95.1" stroke="none" data-name="Finding" data-compartment="1">+count: number</text>
+<text x="0.0" y="111.3" stroke="none" data-name="Finding" data-compartment="1">+columns: string[]</text>
+<text x="0.0" y="127.5" stroke="none" data-name="Finding" data-compartment="1">+rows: Record&lt;string, unknown&gt;[]</text>
+
+</g>
+</g>
+<g transform="translate(132, 178)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Finding" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Finding" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="Column">
+<g fill="lightblue" stroke="#33322E" data-name="Column">
+<rect x="457.0" y="32.5" height="121.0" width="162.0" data-name="Column"></rect>
+<path d="M457.0 64.5 L619.0 64.5" fill="none" data-name="Column"></path>
+<path d="M457.0 145.5 L619.0 145.5" fill="none" data-name="Column"></path>
+</g>
+<g transform="translate(457, 32.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Column" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Column" data-compartment="0">
+<a id="src/analysis.ts.Column" xlink:href="src/analysis.ts"><text x="73.0" y="14.1" stroke="none" text-anchor="middle" data-name="Column" data-compartment="0">Column</text></a>
+
+</g>
+</g>
+<g transform="translate(457, 64.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Column" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Column" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Column" data-compartment="1">+name: string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Column" data-compartment="1">+type: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Column" data-compartment="1">+nullable: boolean</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Column" data-compartment="1">+auto: boolean</text>
+
+</g>
+</g>
+<g transform="translate(457, 145.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Column" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Column" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="Rule">
+<g fill="lightblue" stroke="#33322E" data-name="Rule">
+<rect x="659.0" y="16.5" height="153.0" width="212.0" data-name="Rule"></rect>
+<path d="M659.0 48.5 L871.0 48.5" fill="none" data-name="Rule"></path>
+<path d="M659.0 161.5 L871.0 161.5" fill="none" data-name="Rule"></path>
+</g>
+<g transform="translate(659, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Rule" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Rule" data-compartment="0">
+<a id="src/rules.ts.Rule" xlink:href="src/rules.ts"><text x="98.0" y="14.1" stroke="none" text-anchor="middle" data-name="Rule" data-compartment="0">Rule</text></a>
+
+</g>
+</g>
+<g transform="translate(659, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Rule" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Rule" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Rule" data-compartment="1">+id: string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Rule" data-compartment="1">+title: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Rule" data-compartment="1">+severity: Severity</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Rule" data-compartment="1">+description: string</text>
+<text x="0.0" y="78.9" stroke="none" data-name="Rule" data-compartment="1">+recommendation: string</text>
+<text x="0.0" y="95.1" stroke="none" data-name="Rule" data-compartment="1">+sql: string</text>
+
+</g>
+</g>
+<g transform="translate(659, 161.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Rule" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Rule" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,38 @@
+
+classDiagram
+
+
+class UserError{
+            
+            
+        }
+class Finding {
+            <<interface>>
+            +id: string
++title: string
++severity: Severity
++description: string
++recommendation: string
++count: number
++columns: string[]
++rows: Record~string, unknown~[]
+            
+        }
+class Column {
+            <<interface>>
+            +name: string
++type: string
++nullable: boolean
++auto: boolean
+            
+        }
+class Rule {
+            <<interface>>
+            +id: string
++title: string
++severity: Severity
++description: string
++recommendation: string
++sql: string
+            
+        }
